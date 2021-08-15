@@ -104,7 +104,7 @@ function start() {
   3. Each correct answer gets you 1 points. You get nothing for wrong answer.
   4. Enter only 'A', 'B' or 'C' to make choice`));
   username = readLineSync.question("\nLet's Start With Your Name First?\n");
-  sportChoice = readLineSync.question(`\nWhich of the following shows do you like the most?
+  sportChoice = readLineSync.question(`\nWhich of the following shows do you like the most ${username}?
   (A) Cricket
   (B) Footbal
   Your choice: `);
